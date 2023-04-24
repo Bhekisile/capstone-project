@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(./Lato2OFL/Lato-Medium.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 380px;
+}
+
+.wrapper {
+    background-color: #d3d3d3;
+}
+
+.nav-bar {
+    margin-top: 12px;
+    margin-left: 36px;
+}
+
+header {
+    width: 350px;
+    height: 250px;
+    padding-left: 12px;
+    border: 1px solid black;
+}
+
+header h2 {
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+    margin-top: 48px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ec5242;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: 12px;
+    color: #ec5242;
+}
+
+.b-image {
+    width: 150px;
+    height: 100px;
+    float: right;
+    
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+    width: 350px;
+    height: 160px;
+    margin-top: 100px;
+    line-height: 32px;
+    padding: 12px;
+    margin-left: 12px;
+    /* word-spacing: 0.5rem; */
+    border: 1px solid #fff;
+}
+
+.date {
+    font-family: 'lato', sans-serif;
+    color: #272a31;
+    font-size: 48;
+    font-weight: 700;
+    padding-left: 12px;
+}
+
+.venue {
+    font-family: 'lato', sans-serif;
+    color: #272a31;
+    margin-bottom: 100px;
+}
