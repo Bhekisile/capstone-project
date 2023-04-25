@@ -46,7 +46,6 @@ a {
   color: #272a31;
   font-size: 32px;
   padding-left: 12px;
-  color: #272a31;
 }
 
 .nav-menu ul {
@@ -61,7 +60,7 @@ a {
   font-family: "Lato", sans-serif;
   margin-top: 12px;
   margin-bottom: 48px;
-  color: #272a31;
+  color: #ec5242;
 }
 
 #nav-menu {
@@ -71,7 +70,7 @@ a {
   width: 375px;
   text-align: left;
   z-index: 99;
-  background-color: #fff;
+  background-color: #d3d3d3;
 }
 
 .sec1 {
@@ -83,8 +82,7 @@ a {
 
 .sec1 h2 {
   font-family: "Lato", sans-serif;
-  color: #272a31;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   color: #ec5242;
   margin-bottom: 0;
@@ -92,7 +90,6 @@ a {
 
 h1 {
   font-family: "Lato", sans-serif;
-  color: #272a31;
   font-weight: 600;
   font-size: 35px;
   line-height: 35px;
@@ -101,15 +98,9 @@ h1 {
   color: #ec5242;
 }
 
-/* .b-image {
-    width: 150px;
-    height: 100px;
-    float: right;  
-} */
-
 .text {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 12px;
   color: #272a31;
   width: 350px;
@@ -125,15 +116,15 @@ h1 {
 .date {
   font-family: "lato", sans-serif;
   color: #272a31;
-  font-size: 48;
-  font-weight: 900;
+  font-size: 28px;
+  font-weight: 700;
   padding-left: 12px;
   margin-bottom: 10px;
 }
 
 .venue {
   font-family: "lato", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #272a31;
   text-align: left;
   width: 295px;
@@ -225,8 +216,8 @@ img .white {
   margin-bottom: 12px;
   font-family: "Lato", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .lecturer {
@@ -245,6 +236,10 @@ img .white {
   margin-left: 12px;
   margin-bottom: 48px;
   background-color: transparent;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .btnLect img {
@@ -253,7 +248,7 @@ img .white {
 
 .text-ab {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 12px;
   color: #272a31;
   width: 350px;
@@ -272,7 +267,7 @@ img .white {
   font-weight: 400;
   color: #272a31;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   width: 295px;
   height: 48px;
   line-height: 22px;
@@ -280,7 +275,7 @@ img .white {
 
 .email {
   font-family: "lato", sans-serif;
-  font-weight: 400;
+  font-weight: bold;
   text-align: center;
   color: black;
   text-decoration: underline;
@@ -328,10 +323,10 @@ img .white {
 }
 
 .wrap {
-    border-top: 1px solid #fafafa;
-    width: 375px;
-    height: 630px;
-    padding-top: 20px;
+  border-top: 1px solid #fafafa;
+  width: 375px;
+  height: 630px;
+  padding-top: 20px;
 }
 
 .sec3-2 {

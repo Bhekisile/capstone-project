@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "Lato";
+    src: url(./Lato2OFL/Lato-Medium.ttf);
+  }
+  
+  body {
+    width: 375px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    background-image: url(./Image/grey-bg.jpg);
+    width: 375px;
+  }
+  
+  .nav-bar {
+    padding-top: 12px;
+    margin-left: 36px;
+    width: 375px;
+    height: 65px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    margin-top: 100px;
+    margin-left: 12px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    font-family: "Lato", sans-serif;
+    line-height: 60px;
+    font-weight: 500;
+    color: #272a31;
+    font-size: 32px;
+    padding-left: 12px;
+  }
+  
+  .nav-menu ul {
+    margin-top: 60px;
+  }
+  
+  #btn-close {
+    position: absolute;
+    margin-left: 24px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    margin-top: 12px;
+    margin-bottom: 48px;
+    color: #ec5242;
+  }
+  
+  #nav-menu {
+    display: none;
+    position: absolute;
+    height: 760px;
+    width: 375px;
+    text-align: left;
+    z-index: 99;
+    background-color: #d3d3d3;
+  }
+  
+  .sec1 {
+    margin-top: 36px;
+    width: 345px;
+    height: 180px;
+    margin-left: 12px;
+  }
+  
+  .sec1 h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ec5242;
+    margin-bottom: 0;
+  }
+  
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    margin-left: 0;
+    margin-top: 0;
+    color: #ec5242;
+  }
+  
+  .text {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #272a31;
+    width: 350px;
+    height: 120px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 25px;
+    padding: 12px;
+    margin-left: 14px;
+    border: 1px solid #fff;
+  }
+  
+  .date {
+    font-family: "lato", sans-serif;
+    color: #272a31;
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .venue {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    color: #272a31;
+    text-align: left;
+    width: 295px;
+    height: 48px;
+    line-height: 22px;
+    margin-left: 12px;
+  }
+  
+  /* Section 2 */
+  .main-container {
+    padding: 12px;
+    height: 890px;
+    background-image: url("./Image/black-bg.jpg");
+  }
+  
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+  }
+  
+  .sec2 h3 {
+    /* text-align: center; */
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+  }
+  
+  .sec2 img {
+    text-align: center;
+    margin: 5px auto;
+    margin-bottom: 50px;
+  }
+  
+  .b-grey {
+    background-color: #272a31;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 355px;
+    height: 120px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  
+  img .white {
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+  }
+  
+  .b-grey h4 {
+    color: #ec5242;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: 65px;
+  }
+  
+  .text2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    width: 190px;
+  }
+  
+  .text3 {
+    width: 300px;
+    height: 70px;
+    background-color: #ec5242;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 24px;
+  }
+  
+  .lect {
+    padding-top: 24px;
+    margin-bottom: 12px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+  
+  .lecturer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .btnLect {
+    width: 356px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    margin-left: 12px;
+    margin-bottom: 48px;
+    background-color: transparent;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .btnLect img {
+    margin-left: 5px;
+  }
+  
+  .text-ab {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #272a31;
+    width: 350px;
+    height: 140px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 25px;
+    padding: 12px;
+    margin-left: 14px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .mail {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    color: #272a31;
+    margin: 0 auto;
+    text-align: center;
+    width: 295px;
+    height: 48px;
+    line-height: 22px;
+  }
+  
+  .email {
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    margin-top: 0;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
+  }
+  
+  .sec3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 250px;
+    margin: 0 auto;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sec3 img {
+    margin-top: 12px;
+  }
+  
+  .text4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 354px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  
+  .logo1 {
+    width: 350px;
+    height: 140px;
+    margin-bottom: 48px;
+    margin-left: 12px;
+    border: 1px solid #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrap {
+    border-top: 1px solid #fafafa;
+    width: 375px;
+    height: 630px;
+    padding-top: 20px;
+  }
+  
+  .sec3-2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 250px;
+    margin: 0 auto;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sec3-2 img {
+    margin-top: 12px;
+  }
+  
+  .grad {
+    width: 340px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    margin-left: 12px;
+  }
+  
+  .partners {
+    margin-bottom: 60px;
+  }
+  
