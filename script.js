@@ -11,4 +11,3 @@ ham.addEventListener('click', () => {
 
 const closeBtn = document.getElementById('btn-close');
 closeBtn.addEventListener('click', clickX);
-
