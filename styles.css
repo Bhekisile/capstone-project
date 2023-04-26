@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 @font-face {
   font-family: "Lato";
   src: url(./Lato2OFL/Lato-Medium.ttf);
-}
-
-body {
-  /* width: 375px; */
 }
 
 * {
@@ -151,7 +147,6 @@ h1 {
 }
 
 .sec2 h3 {
-  /* text-align: center; */
   color: #fff;
   font-weight: 400;
   font-size: 20px;
@@ -369,7 +364,7 @@ img .white {
 }
 
 .desktop {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -528,7 +523,6 @@ img .white {
   }
 
   .textDesk {
-    /* display: block; */
     font-family: "Lato", sans-serif;
     font-size: 18;
     font-weight: 600px;
@@ -547,10 +541,9 @@ img .white {
     flex-direction: column;
     align-items: center;
     width: 100%;
-}
+  }
 
   .lecturers {
-    /* display: block; */
     width: 70%;
     min-height: 450px;
     margin: 36px auto;
@@ -592,8 +585,7 @@ img .white {
     font-size: 16px;
   }
 
-.sponsors {
-    /* display: block; */
+  .sponsors {
     font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -601,22 +593,22 @@ img .white {
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
+  }
 
-.sponsors h3 {
+  .sponsors h3 {
     margin-bottom: 15px;
-}
+  }
 
-.partners1 {
+  .partners1 {
     width: 100%;
     min-height: 240px;
     padding-top: 35px;
     background-color: #272a31;
-    color: #8F8F91;
+    color: #8f8f91;
     margin-bottom: 100px;
-}
+  }
 
-.partners1 ul {
+  .partners1 ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -625,32 +617,31 @@ img .white {
     margin: 60px auto;
     font-family: fantasy;
     font-size: x-large;
-}
+  }
 
-footer {
-    font-family: 'Lato', sans-serif;
+  footer {
+    font-family: "Lato", sans-serif;
     display: flex;
     flex-direction: column;
     margin-bottom: 36px;
-}
+  }
 
-footer p { 
+  footer p {
     text-align: center;
     font-size: 14px;
     font-weight: 700;
     margin-top: -45px;
-}
+  }
 
-footer img {
+  footer img {
     width: 250px;
     min-height: 40px;
     margin-left: 240px;
-}
+  }
 
-footer span {
+  footer span {
     font-weight: 900;
     font-size: 20px;
     color: #272a31;
-}
-
+  }
 }
