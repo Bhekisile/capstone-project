@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
-    <title>Concert</title>
+    <title>College of Science</title>
 </head>
 <body>
     <section class="wrapper">
@@ -23,6 +23,28 @@
             <nav class="nav-bar">
                 <img class="ham" src="./Image/hamburger.png">
             </nav>
+            <div class="desk-nav">
+                <div class="black">
+                    <ul>
+                        <li><a href="#"><img src="./Image/facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="./Image/twitter.png" alt=""></a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">My Page</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+                <img class="logo-img" src="./Image/uni-logo1.png" alt="">
+                <div class="menu">
+                <ul>
+                    <li class=" nav-list red"><a class="red" href="about.html">About</a></li>
+                    <li class="nav-list"><a class="dark" href="#program">Program</a></li>
+                    <li class="nav-list"><a class="dark" href="#">Join</a></li>
+                    <li class="nav-list"><a class="dark" href="#sponsor">Sponsor</a></li>
+                    <li class="nav-list"><a class="dark" href="#">News</a></li>
+                    <li class="nav-list red"><a class="red" href="#">CC Campaign</a></li>
+                </ul>
+                </div>
+            </div>
         </header>
         <article>
         <header class="sec1">
@@ -34,9 +56,11 @@
                 The vision of the College of Science, Engineering and Technology (CSET) 
                 is to “develop world class, futuristic, African science, engineering and 
                 technology leaders, who aspire to extend the frontiers of innovation”.
-            </p>
-            <h3 class="date">2023.04.17 (THU) ~ 5 (FRI)</h3>
-            <p class="venue">@ Sunnyside Building, Pretoria</p>
+            </p> 
+            <div class="place">
+                <h3 class="date">2023.04.17 (THU) ~ 5 (FRI)</h3>
+                <p class="venue">@ Sunnyside Building, Pretoria</p>
+            </div>
         </article>
     </section>
     <section class="main-container">
@@ -45,50 +69,129 @@
             <img src="./Image/title-line.png" alt="">
         </header>
         <article class="main-course">
-            <div class="b-grey">
-                <img class="white" src="./Image/lecture1.png" alt="">
-                 <h4>Executive Dean</h4>
-                <p class="text2">The College carries out front-end and cutting edge research in collaboration 
-                with world-class universities and industry partners across the globe.</p>
-            </div>
-            <div class="b-grey">
-                <img class="white" src="./Image/icon2.png" alt="">
-                <h4>Department of chemistry</h4>
-                <p class="text2">The undergraduate BSc degree includes studies of the four major disciplines 
-                in chemistry; namely, Analytical, Inorganic, Organic and Physical Chemistry</p>
-            </div>
-            <div class="b-grey">
-                <img class="white" src="./Image/icon3.png" alt="">
-                <h4>Department of Mathematic Sciences</h4>
-                <p class="text2">The department commits itself to the achievement of academic excellence 
-                in the fields of Mathematics, Applied Mathematics and Astronomy</p>
-            </div>
-            <div class="b-grey">
-                <img class="white" src="./Image/chemistry.png" alt="">
-                <h4>Department of Physics</h4>
-                <p class="text2">The Department seeks to address the need for people 
-                skilled in science and technology in South Africa, 
-                and to improve general scientific literacy in our communities.</p>
-            </div>
-            <div class="b-grey">
-                <img class="white" src="./Image/icon5.png" alt="">
-                <h4>Department of Statistics</h4>
-                <p class="text2">Our programmes ensures a coherent degree structure which brings 
-                statistical knowledge and technology skills to students from all walks of life.</p>
+            <div class="flex-wrapper">
+                <div class="b-grey">
+                    <img class="white" src="./Image/lecture1.png" alt="">
+                    <h4>Executive Dean</h4>
+                    <p class="text2">The College carries out front-end and cutting edge research in collaboration 
+                    with world-class universities and industry partners across the globe.</p>
+                </div>
+                <div class="b-grey">
+                    <img class="white" src="./Image/icon2.png" alt="">
+                    <h4>Department of chemistry</h4>
+                    <p class="text2">The undergraduate BSc degree includes studies of the four major disciplines 
+                    in chemistry; namely, Analytical, Inorganic, Organic and Physical Chemistry</p>
+                </div>
+                <div class="b-grey">
+                    <img class="white" src="./Image/icon3.png" alt="">
+                    <h4>Department of Mathematic Sciences</h4>
+                    <p class="text2">The department commits itself to the achievement of academic excellence 
+                    in the fields of Mathematics, Applied Mathematics and Astronomy</p>
+                </div>
+                <div class="b-grey">
+                    <img class="white" src="./Image/chemistry.png" alt="">
+                    <h4>Department of Physics</h4>
+                    <p class="text2">The Department seeks to address the need for people 
+                    skilled in science and technology in South Africa, 
+                    and to improve general scientific literacy in our communities.</p>
+                </div>
+                <div class="b-grey">
+                    <img class="white" src="./Image/icon5.png" alt="">
+                    <h4>Department of Statistics</h4>
+                    <p class="text2">Our programmes ensures a coherent degree structure which brings 
+                    statistical knowledge and technology skills to students from all walks of life.</p>
+                </div>
             </div>
                 <div class="text3">
                     <h5>Join our school of Science and Technology</h5>
                 </div>
+                <p class="textDesk desktop">SEE ALL OUR LECTURERS</p>
         </article>     
     </section>
     <section>
-        <header class="lecturer">
+        <header class="lecturer" id="program">
             <h3 class="lect">Our Amazing Lecturers</h3>
             <img src="./Image/title-line.png" alt="">
         </header>
-       <button type="submit" class="btnLect">
-        MORE <img src="./Image/arrow_down.png" alt="">
-       </button>
+        <button type="submit" class="btnLect">
+            MORE <img src="./Image/arrow_down.png" alt="">
+           </button>
+        
+        <article class="lecturers desktop">
+            <div class="row">
+                <div class="lects">
+                    <img src="./Image/exe-dean.jpg" alt="Executive Dean">
+                    <div class="flex-lects">
+                        <h4 class="name">Prof BB Mamba</h4>
+                        <p class="title">Executive Dean College of Science Engineering & Technology</p>
+                        <p class="descr">Specialising in Inorganic Chemistry, Nanostructured materials synthesis and water treatment</p>
+                    </div>
+                </div>
+                <div class="lects">
+                    <img src="./Image/Dr-Mark-Smith.jpg" alt="Dr Mark Smith">
+                    <div class="flex-lects">
+                        <h4 class="name">Dr Mark Smith</h4>
+                        <p class="title">Senior lecturer in the Department of Chemistry, CSET</p>
+                        <p class="descr">Specialising in Supramolecular Chemistry, Structural Chemistry and Pharmaceutical drug design</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="lects">
+                    <img src="./Image/MketoN.jpg" alt="Executive Dean">
+                    <div class="flex-lects">
+                        <h4 class="name">Dr M Mketo</h4>
+                        <p class="title">Department of Chemistry</p>
+                        <p class="descr">Specialising in inorganic (heavy metals, non-metals and metalloids) and organic pollutants are a threats to living organisms</p>
+                    </div>
+                </div>
+                <div class="lects">
+                    <img src="./Image/Prof-Mantile-Lekala.jpg" alt="Dr Mark Smith">
+                    <div class="flex-lects">
+                        <h4 class="name">Prof M Lekala</h4>
+                        <p class="title">Department of Physics</p>
+                        <p class="descr">Specialising in Theoretical Nuclear, Atomic and Molecular Physics and Computational Physics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="lects">
+                    <img src="./Image/EevaRapoo.jpg" alt="Executive Dean">
+                    <div class="flex-lects">
+                        <h4 class="name">Prof E Rapoo</h4>
+                        <p class="title">Chair of Statistics Department</p>
+                        <p class="descr">Specialising in Stochastics, Mathematics and Statistics Education and numerical analysis.</p>
+                    </div>
+                </div>
+                <div class="lects">
+                    <img src="./Image/Gaetan Kabera.jpg" alt="Dr Mark Smith">
+                    <div class="flex-lects">
+                        <h4 class="name">Prof G Kabera</h4>
+                        <p class="title">Statistics Lecturer</p>
+                        <p class="descr">Specialising in Optimal experimental Designs, Survival Analysis and Analytic Hierarchy Process.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="sponsor" class="partners1">
+            <div class="sponsors desktop">
+                <h3>Partners</h3>
+                <img src="./Image/title-line.png" alt="">
+            </div>   
+            <ul class="desktop">
+                <li>ALUMNI</li>
+                <li>Funza Lushaka</li>
+                <li>Department of Arts and Culture</li>
+                <li>NSFAS</li>
+            </ul>
+        </article>
+        <footer class="desktop">
+            <p>2015 Creative Commons South Africa. Some Rights Reserved.</p>
+            <div class="ft">
+                <img src="./Image/cck.png" alt="">
+                <span>SOUTH AFRICA</span>
+            </div>
+        </footer>
     </section>
     <script src="script.js"></script>
 </body>

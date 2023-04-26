@@ -10,13 +10,45 @@
 <body>
 <section class="wrapper">
     <header>
+        <div id="nav-menu">
+            <div id="btn-close">&times;</div>
+            <ul>
+                <li><a href="#about" class="nav-link" onclick="clickX()">About</a></li>
+                <li><a href="#program" class="nav-link" onclick="clickX()">Program</a></li>
+                <li><a href="#join" class="nav-link" onclick="clickX()">Join</a></li>
+                <li><a href="#sponsor" class="nav-link" onclick="clickX()">Sponsor</a></li>
+                <li><a href="#news" class="nav-link" onclick="clickX()">News</a></li>
+            </ul>
+        </div>
         <nav class="nav-bar">
-            <img class="ham" src="./Image/hamburger.png" onclick="clickMenu()">
+            <img class="ham" src="./Image/hamburger.png">
         </nav>
+        <div class="desk-nav">
+            <div class="black desktop">
+                <ul>
+                    <li><a href="#"><img class="fb" src="./Image/facebook.png" alt=""></a></li>
+                    <li><a href="#"><img src="./Image/twitter.png" alt=""></a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">My Page</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <img class="logo-img desktop" src="./Image/uni-logo1.png" alt="">
+            <div class="menu desktop">
+            <ul>
+                <li class="red"><a class="red" href="index.html">Home</a></li>
+                <li><a class="dark" href="#program">Program</a></li>
+                <li><a class="dark" href="index.html/#join">Join</a></li>
+                <li><a class="dark" href="#sponsor">Sponsor</a></li>
+                <li><a class="dark" href="#">News</a></li>
+                <li class="red"><a class="red" href="#">CC Campaign</a></li>
+            </ul>
+            </div>
+        </div>
     </header>
-    <article>
+    <article class="sec1-cont">
     <header class="sec1">
-        <h2>"Welcome! Define Tomorrow"</h2>
+        <h2 class="mobile">"Welcome! Define Tomorrow"</h2>
         <h1>College of Science, Engineering and Technology 2023</h1>
     </header>
       <!--  <img class="b-image" src="./Image/unisa-logo3.png" alt=""> -->
@@ -27,34 +59,60 @@
             interested in becoming professional technicians and technologists in a 
             number of engineering disciplines.
         </p>
-        <p class="mail">Please contact us per Email for any further questions 
+        <div class="info">
+            <p class="mail">Please contact us per Email for any further questions 
             about the enrollment</p>
             <a href=""><p class="email">study-info@unisa.ac.za</p></a>
+        </div>
     </article>
 </section>
 <section>
-    <div class="sec3">
-        <h3>The leading CODeL university</h3>
-        <img src="./Image/title-line.png" alt="">
-    </div>
-    <p class="text4">This year's ceremony marks a significant 150th anniversary milestone (#Unisa150).</p>
-    <div class="logo1">
-    
-        <img src="./Image/uni-logo1.png">
-    </div>
-        <div class="wrap">
-            <div class="sec3-2">
-                <h3>See the past years graduations.</h3>
-                <img src="./Image/title-line.png" alt="">
-            </div>
-            <p class="text4">Take a look at our students celebrating and joining the alumni association.</p>
-            <div class="grad">
-                <img src="./Image/graduation.jpg" alt="students graduation">
-                <img src="./Image/graduation2.jpg" alt="students graduation">
-            </div>
+    <div class="cont-sec3">
+        <div class="sec3">
+            <h3>The leading CODeL university</h3>
+            <img src="./Image/title-line.png" alt="">
         </div>
-    <img class="partners" src="./Image/Partners.png">
-    <div class="lect-list"></div>
+        <p class="text4">This year's ceremony marks a significant 150th anniversary milestone (#Unisa150). 
+            <span class="desktop">Our vision describes our wish to serve every country on the African continent while transcending 
+            language and cultural barriers. We are 100% committed to the communities and individuals we serve.</span></p>
+    </div>
+    <div class="logo-cont">
+        <div class="logo1">
+            <img src="./Image/uni-logo1.png">
+        </div>
+        <div class="wrap">
+                <div class="sec3-2">
+                    <h3>See the past years graduations.</h3>
+                    <img src="./Image/title-line.png" alt="">
+                </div>
+                <p class="text5">Take a look at our students celebrating and joining the alumni association.</p>
+                <div class="grad">
+                    <img src="./Image/graduation.jpg" alt="students graduation">
+                    <img src="./Image/graduation2.jpg" alt="students graduation">
+                </div>
+        </div>
+    </div>
+    <article class="partners1" id="sponsor">
+        <div class="sponsors">
+            <h3>Partners</h3>
+            <img src="./Image/title-line.png" alt="">
+        </div>   
+        <ul>
+            <li>ALUMNI</li>
+            <li>Funza Lushaka</li>
+            <li>Department of Arts and Culture</li>
+            <li>NSFAS</li>
+        </ul>
+    </article>
+    <footer class="mobile">
+        <div class="flex-ft item">
+            <p>2015 Creative Commons South <br>Africa. Some Rights Reserved.</p>
+        </div>
+        <div class="ft item">
+            <img src="./Image/cck.png" alt="">
+            <span>SOUTH AFRICA</span>
+        </div>
+    </footer>
 </section>
 <script src="about.js"></script>  
 </body>
