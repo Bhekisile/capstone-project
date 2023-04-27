@@ -64,9 +64,8 @@ const dataCards = [
   ];
 
   const showBtn = document.querySelector('.btnLect');
-  const showBtnArray = Array.from(showBtn);
-  const showMore = document.getElementById('showMore');
-
+  const showMoreArray = Array.from(showMore);
+  
   dataCards.forEach((card) => {
     const temp = document.createElement('div');
     temp.innerHTML = `
@@ -81,23 +80,42 @@ const dataCards = [
     `;
     showMore.append(temp);
   })
-  showBtn.innerHTML = 'LESS <img src="./Image/arrow_down.png" alt="">'
 
-//   const showMoreCont = document.querySelector('.showMoreCont');
-//   showBtn.addEventListener('click', () => {
-//     showMoreCont.classList.toggle('hidden');
-//     showMoreCont.classList.toggle('visible');
-//     showBtn.innerHTML = 'LESS <img src="./Image/arrow_down.png" alt="">'
-//   });
+// const clicked = () => {
+//     showMore.classList.remove('hidden');
+//     showMore.classList.add('visible');
+// }
 
-//   function textToggle() {
-//     let showBtn = document.querySelector('.btnLect');
-//     let showMore = document.getElementById('showMore');
-//     if (showBtn.innerHTML === 'MORE') {
-//         showMore.style.display = 'block';
-//         showBtn.innerHTML = 'LESS';
-//     } else if (showBtn.innerHTML === 'LESS') {
-//         showMore.style.display = 'none';
-//         showBtn.innerHTML = 'MORE';
-//     }
+// showBtn.addEventListener('click', clicked);
+
+// const showMoreConts = document.getElementById('showMoreCont');
+// // let showBtn = document.querySelector('.btnLect');
+// for (let i = 0; i < showMoreConts.length; i += 1) {
+//     showBtn.onclick = function showFeature() {
+//       showMoreConts[i].style.visibility = 'visible';
+//       showMoreConts[i].classList.remove('hidden');
+//       showMoreConts[i].classList.add('visible');
+//       showBtn.innerHTML = 'LESS';
+//     };
+//     showBtn.onclick = function lessFeature() {
+//       showMoreConts[i].style.visibility = 'hidden';
+//       showMoreConts[i].classList.remove('visible');
+//       showMoreConts[i].classList.add('hidden');
+//       showBtn.innerHTML = 'MORE';
+//     };
 //   }
+
+const showMoreConts = document.querySelectorAll('.showMoreCont');
+showBtn.addEventListener('click', () => {
+for (let i = 0; i < showMoreConts.length; i += 1) {
+    if (showBtn.innerHTML === 'MORE') {
+      showMoreConts[i].classList.remove('hidden');
+      showMoreConts[i].classList.add('visible');
+      showBtn.innerHTML = 'LESS <img src="./Image/arrow_down.png" alt="">'
+    } else {
+      showMoreConts[i].classList.remove('visible');
+      showMoreConts[i].classList.add('hidden');
+      showBtn.innerHTML = 'MORE <img src="./Image/arrow_down.png" alt="">'
+    } 
+  }
+  });
