@@ -399,7 +399,7 @@ img .white {
   .black ul {
     font-family: "Lato", sans-serif;
     font-size: 10px;
-    font-weight: 800px;
+    font-weight: 800;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -422,7 +422,7 @@ img .white {
   .menu ul {
     font-family: "Lato", sans-serif;
     font-size: 14px;
-    font-weight: 800px;
+    font-weight: 800;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -524,8 +524,8 @@ img .white {
 
   .textDesk {
     font-family: "Lato", sans-serif;
-    font-size: 18;
-    font-weight: 600px;
+    font-size: 18px;
+    font-weight: 600;
     color: #fff;
     margin-top: 70px;
     text-decoration: underline;
@@ -562,7 +562,13 @@ img .white {
     display: flex;
     font-family: "Lato", sans-serif;
     padding: 0;
-    font-weight: 600px;
+    font-weight: 600;
+  }
+  
+  footer img {
+    width: 250px;
+    min-height: 40px;
+    margin-left: 240px;
   }
 
   .lects img {
@@ -631,12 +637,6 @@ img .white {
     font-size: 14px;
     font-weight: 700;
     margin-top: -45px;
-  }
-
-  footer img {
-    width: 250px;
-    min-height: 40px;
-    margin-left: 240px;
   }
 
   footer span {

@@ -399,7 +399,6 @@ img .white {
 .cck {
   width: 100px;
   height: 25px;
-
   font-weight: 900;
 }
 
@@ -470,7 +469,7 @@ img .white {
   .menu ul {
     font-family: "Lato", sans-serif;
     font-size: 14px;
-    font-weight: 800px;
+    font-weight: 800;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -591,7 +590,7 @@ img .white {
     margin: 0 auto;
     font-family: "Lato", sans-serif;
     font-size: 17px;
-    font-weight: 800px;
+    font-weight: 800;
     display: flex;
     justify-content: center;
   }
