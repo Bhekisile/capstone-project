@@ -81,30 +81,17 @@ const dataCards = [
     showMore.append(temp);
   })
 
-// const showMore = document.querySelectorAll('.showMore');
-// showBtn.addEventListener('click', () => {
-//     if (showBtn.innerHTML === 'MORE') {
-//       showMore.style.display = 'block';
-//       vanish.style.display = 'none';
-//       showBtn.innerHTML = 'LESS <img src="./Image/arrow_down.png" alt="">'
-//     } else {
-//       showMore.style.display = 'none';
-//       vanish.style.display = 'block';
-//       showBtn.innerHTML = 'MORE <img src="./Image/arrow_down.png" alt="">'
-//     } 
-//   });
-
   function toggleShow() {
+    const vanish = document.querySelector('.vanish');
     if (showBtn.innerHTML.includes('MORE')) {
-     showBtn.innerHTML = 'LESS';
+     showBtn.innerHTML = 'LESS <img src="./Image/arrow_down.png" alt="">';
      showMore.style.display = 'block';
      vanish.style.display = 'none';
   } else if (showBtn.innerHTML.includes('LESS')){
-    showBtn.innerHTML = 'MORE';
+    showBtn.innerHTML = 'MORE <img src="./Image/arrow_down.png" alt="">';
      showMore.style.display = 'none';
      vanish.style.display = 'block';
   }
 }
-  toggleShow();
 
   showBtn.addEventListener('click', toggleShow);

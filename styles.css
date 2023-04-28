@@ -386,14 +386,6 @@ img .white {
     display: block;
 }
 
-/* .visible {
-  display: block;
-}
-
-.hidden {
-  display: none;
-} */
-
 #showMore {
   display: none;
 }
@@ -448,6 +440,10 @@ img .white {
 @media (min-width: 768px) {
 
   .mobile {
+    display: none;
+  }
+
+  #showMore {
     display: none;
   }
 
