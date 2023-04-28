@@ -112,32 +112,36 @@
             <h3 class="lect">Our Amazing Lecturers</h3>
             <img src="./Image/title-line.png" alt="">
         </header>
+        
         <article class="lecturers">
-            <div class="row">
-                <div class="lects">
-                    <img src="./Image/exe-dean.jpg" alt="Executive Dean">
-                    <div class="flex-lects">
-                        <h4 class="name">Prof BB Mamba</h4>
-                        <p class="title">Executive Dean College of Science Engineering & Technology</p>
-                        <p class="descr">Specialising in Inorganic Chemistry, Nanostructured materials synthesis and water treatment</p>
+            <div class="vanish">
+                <div class="row">
+                    <div class="lects">
+                        <img src="./Image/exe-dean.jpg" alt="Executive Dean">
+                        <div class="flex-lects">
+                            <h4 class="name">Prof BB Mamba</h4>
+                            <p class="title">Executive Dean College of Science Engineering & Technology</p>
+                            <p class="descr">Specialising in Inorganic Chemistry, Nanostructured materials synthesis and water treatment</p>
+                        </div>
                     </div>
-                </div>
-                <div class="lects">
-                    <img src="./Image/Dr-Mark-Smith.jpg" alt="Dr Mark Smith">
-                    <div class="flex-lects">
-                        <h4 class="name">Dr Mark Smith</h4>
-                        <p class="title">Senior lecturer in the Department of Chemistry, CSET</p>
-                        <p class="descr">Specialising in Supramolecular Chemistry, Structural Chemistry and Pharmaceutical drug design</p>
+                    <div class="lects">
+                        <img src="./Image/Dr-Mark-Smith.jpg" alt="Dr Mark Smith">
+                        <div class="flex-lects">
+                            <h4 class="name">Dr Mark Smith</h4>
+                            <p class="title">Senior lecturer in the Department of Chemistry, CSET</p>
+                            <p class="descr">Specialising in Supramolecular Chemistry, Structural Chemistry and Pharmaceutical drug design</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <button type="submit" class="btnLect mobile">
-                MORE <img src="./Image/arrow_down.png" alt="">
-               </button>
-               
+                <div id="showMore" class="mobile"></div>
+                <button type="submit" class="btnLect mobile" onclick="toggleShow">
+                    MORE <img src="./Image/arrow_down.png" alt="">
+                </button> 
+            
             <div class="row desktop">
                 <div class="lects">
-                    <img src="./Image/MketoN.jpg" alt="Executive Dean">
+                    <img src="./Image/MketoN.jpg" alt="Dr M Mketo">
                     <div class="flex-lects">
                         <h4 class="name">Dr M Mketo</h4>
                         <p class="title">Department of Chemistry</p>
@@ -145,7 +149,7 @@
                     </div>
                 </div>
                 <div class="lects">
-                    <img src="./Image/Prof-Mantile-Lekala.jpg" alt="Dr Mark Smith">
+                    <img src="./Image/Prof-Mantile-Lekala.jpg" alt="Prof M Lekala">
                     <div class="flex-lects">
                         <h4 class="name">Prof M Lekala</h4>
                         <p class="title">Department of Physics</p>
@@ -155,7 +159,7 @@
             </div>
             <div class="row desktop">
                 <div class="lects">
-                    <img src="./Image/EevaRapoo.jpg" alt="Executive Dean">
+                    <img src="./Image/EevaRapoo.jpg" alt="Prof E Rapoo">
                     <div class="flex-lects">
                         <h4 class="name">Prof E Rapoo</h4>
                         <p class="title">Chair of Statistics Department</p>
@@ -163,7 +167,7 @@
                     </div>
                 </div>
                 <div class="lects">
-                    <img src="./Image/Gaetan Kabera.jpg" alt="Dr Mark Smith">
+                    <img src="./Image/Gaetan-Kabera.jpg" alt="Prof G Kabera">
                     <div class="flex-lects">
                         <h4 class="name">Prof G Kabera</h4>
                         <p class="title">Statistics Lecturer</p>
@@ -172,6 +176,7 @@
                 </div>
             </div>
         </article>
+            
         <article id="sponsor" class="partners1 desktop">
             <div class="sponsors desktop">
                 <h3>Partners</h3>
@@ -191,7 +196,7 @@
                 <span>SOUTH AFRICA</span>
             </div>
         </footer>
-        <div id="showMore mobile"></div>
+        
     </section>
     <script src="script.js"></script>
 </body>

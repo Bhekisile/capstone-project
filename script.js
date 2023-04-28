@@ -55,7 +55,7 @@ const dataCards = [
     },
     {
       id: 6,
-      image: './Image/Gaetan Kabera.jpg',
+      image: './Image/MketoN.jpg',
       name: 'Prof G Kabera',
       title: 'Statistics Lecturer',
       line: './Image/title-line.png',
@@ -63,13 +63,13 @@ const dataCards = [
     },
   ];
 
+  const showMore = document.getElementById('showMore');
   const showBtn = document.querySelector('.btnLect');
-  const showMoreArray = Array.from(showMore);
   
   dataCards.forEach((card) => {
     const temp = document.createElement('div');
     temp.innerHTML = `
-    <div class='showMoreCont hidden'>
+    <div class='showMoreCont'>
     <div class='img1'><img class='pop-img' src=${card.image}></div>
     <div class='flex-txt'>
     <h4 class='dept'>${card.name}</h4>
@@ -81,41 +81,30 @@ const dataCards = [
     showMore.append(temp);
   })
 
-// const clicked = () => {
-//     showMore.classList.remove('hidden');
-//     showMore.classList.add('visible');
-// }
+// const showMore = document.querySelectorAll('.showMore');
+// showBtn.addEventListener('click', () => {
+//     if (showBtn.innerHTML === 'MORE') {
+//       showMore.style.display = 'block';
+//       vanish.style.display = 'none';
+//       showBtn.innerHTML = 'LESS <img src="./Image/arrow_down.png" alt="">'
+//     } else {
+//       showMore.style.display = 'none';
+//       vanish.style.display = 'block';
+//       showBtn.innerHTML = 'MORE <img src="./Image/arrow_down.png" alt="">'
+//     } 
+//   });
 
-// showBtn.addEventListener('click', clicked);
-
-// const showMoreConts = document.getElementById('showMoreCont');
-// // let showBtn = document.querySelector('.btnLect');
-// for (let i = 0; i < showMoreConts.length; i += 1) {
-//     showBtn.onclick = function showFeature() {
-//       showMoreConts[i].style.visibility = 'visible';
-//       showMoreConts[i].classList.remove('hidden');
-//       showMoreConts[i].classList.add('visible');
-//       showBtn.innerHTML = 'LESS';
-//     };
-//     showBtn.onclick = function lessFeature() {
-//       showMoreConts[i].style.visibility = 'hidden';
-//       showMoreConts[i].classList.remove('visible');
-//       showMoreConts[i].classList.add('hidden');
-//       showBtn.innerHTML = 'MORE';
-//     };
-//   }
-
-const showMoreConts = document.querySelectorAll('.showMoreCont');
-showBtn.addEventListener('click', () => {
-for (let i = 0; i < showMoreConts.length; i += 1) {
-    if (showBtn.innerHTML === 'MORE') {
-      showMoreConts[i].classList.remove('hidden');
-      showMoreConts[i].classList.add('visible');
-      showBtn.innerHTML = 'LESS <img src="./Image/arrow_down.png" alt="">'
-    } else {
-      showMoreConts[i].classList.remove('visible');
-      showMoreConts[i].classList.add('hidden');
-      showBtn.innerHTML = 'MORE <img src="./Image/arrow_down.png" alt="">'
-    } 
+  function toggleShow() {
+    if (showBtn.innerHTML.includes('MORE')) {
+     showBtn.innerHTML = 'LESS';
+     showMore.style.display = 'block';
+     vanish.style.display = 'none';
+  } else if (showBtn.innerHTML.includes('LESS')){
+    showBtn.innerHTML = 'MORE';
+     showMore.style.display = 'none';
+     vanish.style.display = 'block';
   }
-  });
+}
+  toggleShow();
+
+  showBtn.addEventListener('click', toggleShow);

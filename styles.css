@@ -241,6 +241,7 @@ img .white {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  /* position: fixed; */
 }
 
 .btnLect img {
@@ -385,30 +386,39 @@ img .white {
     display: block;
 }
 
-.visible {
+/* .visible {
   display: block;
 }
 
 .hidden {
   display: none;
-}
+} */
 
 #showMore {
-  visibility: visible;
+  display: none;
+}
+
+.vanish {
+  display: block;
 }
 
 .showMoreCont {
     background-color: #fff;
     display: flex;
     margin: 24px 16px;
-    visibility: visible;
-    position: fixed;
-    z-index: 10;
+    min-height: 150px;
+    width: 375px;
   }
 
   .img1,
   .lects img {
     margin-right: 12px;
+    width: 120px;
+    height: 156px;
+  }
+
+  .img1:nth-last-child(1) {
+    width: 310px;
   }
 
   .flex-txt {
@@ -436,6 +446,7 @@ img .white {
   }
 
 @media (min-width: 768px) {
+
   .mobile {
     display: none;
   }
@@ -626,6 +637,7 @@ img .white {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-bottom: 12px;
   }
 
   .lects {
