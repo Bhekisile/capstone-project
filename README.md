@@ -26,7 +26,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[College of Science]** is one of the University of South Africa's departments. Students who like to further their education in science field can choose between Mathematics, Engineering, Computer Science and Statistics.
+**[College of Science]** is the website about one of the University of South Africa's departments. Students who like to further their education in science field can choose between Mathematics, Engineering, Computer Science and Statistics.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -88,11 +88,6 @@ You can deploy this project using: Netlify
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Dynamic page]**
-- [ ] **[Live demo]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

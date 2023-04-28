@@ -86,7 +86,7 @@ function toggleShow() {
     showBtn.innerHTML = 'LESS <img src="./Image/arrow_down.png" alt="">';
     showMore.style.display = 'block';
     vanish.style.display = 'none';
-  } else if (showBtn.innerHTML.includes('LESS')){
+  } else if (showBtn.innerHTML.includes('LESS')) {
     showBtn.innerHTML = 'MORE <img src="./Image/arrow_down.png" alt="">';
     showMore.style.display = 'none';
     vanish.style.display = 'block';
