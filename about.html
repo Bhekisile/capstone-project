@@ -13,11 +13,11 @@
         <div id="nav-menu">
             <div id="btn-close">&times;</div>
             <ul>
-                <li><a href="#about" class="nav-link" onclick="clickX()">About</a></li>
+                <li><a href="index.html" class="nav-link" onclick="clickX()">Home</a></li>
+                <li><a href="about.html" class="nav-link" onclick="clickX()">About</a></li>
                 <li><a href="#program" class="nav-link" onclick="clickX()">Program</a></li>
                 <li><a href="#join" class="nav-link" onclick="clickX()">Join</a></li>
                 <li><a href="#sponsor" class="nav-link" onclick="clickX()">Sponsor</a></li>
-                <li><a href="#news" class="nav-link" onclick="clickX()">News</a></li>
             </ul>
         </div>
         <nav class="nav-bar">
@@ -36,7 +36,7 @@
             <img class="logo-img desktop" src="./Image/uni-logo1.png" alt="">
             <div class="menu desktop">
             <ul>
-                <li class="red"><a class="red" href="index.html">Home</a></li>
+                <li class="red"><a class="red" href="about.html">About</a></li>
                 <li><a class="dark" href="#program">Program</a></li>
                 <li><a class="dark" href="#">Join</a></li>
                 <li><a class="dark" href="#sponsor">Sponsor</a></li>
@@ -84,32 +84,51 @@
                     <h3>See the past years graduations.</h3>
                     <img src="./Image/title-line.png" alt="">
                 </div>
-                <p class="text5">Take a look at our students celebrating and joining the alumni association.</p>
+                    <p class="text5">Take a look at our students celebrating and joining the alumni association.</p>
                 <div class="grad">
-                    <img src="./Image/graduation.jpg" alt="students graduation">
-                    <img src="./Image/graduation2.jpg" alt="students graduation">
+                    <div class="grad1 ovl1">
+                        <div class=gr-img1></div>
+                        <div class="overlay1"></div>
+                        <div class="gr-text1">
+                            <p class="p1">2022</p> 
+                            <p class="p2">Graduation 2022 in Sunnyside</p>
+                        </div>
+                    </div>
+                    <div class="grad1 ovl2">
+                        <div class="gr-img2"></div>
+                        <div class="overlay2"></div>
+                        <div class="gr-text2">
+                            <p class="p1">2023</p>
+                            <p class="p2">Graduation 2023 in ZK Matthews Great Hall</p>
+                        </div>
+                    </div>
                 </div>
         </div>
     </div>
-    <article class="partners1" id="sponsor">
-        <div class="sponsors">
+    <article id="sponsor" class="partners1 mobile">
+        <div class="sponsors ">
             <h3>Partners</h3>
             <img src="./Image/title-line.png" alt="">
         </div>   
         <ul>
-            <li>ALUMNI</li>
+            <li class="desktop">ALUMNI</li>
             <li>Funza Lushaka</li>
             <li>Department of Arts and Culture</li>
             <li>NSFAS</li>
         </ul>
     </article>
-    <div class="mobile footer">
-        <p class="f-item">2023 Creative Commons South Africa.<br> Some Rights Reserved.</p>
-        <div>
-            <img class="f-item cck" src="./Image/cck.png" alt="">SOUTH AFRICA
+    <footer class="flex-f">
+        <div class="flex-cont">
+            <div class="ft flex-item">
+                <img class="mobile" src="./Image/cck.png" alt="">
+                <img class="desktop" src="./Image/cck-wh.png" alt="">
+                <span>S.AFRICA</span>
+            </div>
+            <div class="flex-item ft1">
+                <p>2023 Creative Commons South Africa. Some Rights Reserved.</p>
+            </div>
         </div>
-        
-    </div>
+    </footer>
 </section>
 <script src="about.js"></script>  
 </body>

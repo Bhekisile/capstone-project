@@ -340,8 +340,100 @@ img .white {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 25px;
   margin-bottom: 48px;
   margin-left: 12px;
+}
+
+.ovl1 {
+  display: flex;
+  min-height: 200px;
+  background: #ec5242;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  /* margin-right: -10px; */
+}
+
+.gr-img1 {
+  background: url(./Image/graduation.jpg);
+  height: 200px;
+  width: 350px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay1 {
+  height: 200px;
+  opacity: 0.7;
+  width: 350px;
+  background: linear-gradient(to bottom,#ec5242,#ec5242);
+  position: absolute;
+}
+
+.gr-text1 {
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.gr-text1 .p2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.gr-text1 .p1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.ovl2 {
+  display: flex;
+  min-height: 200px;
+  background: #ec5242;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+}
+
+.gr-img2 {
+  background: url(./Image/graduation.jpg);
+  height: 200px;
+  width: 350px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay2 {
+  height: 200px;
+  opacity: 0.7;
+  width: 350px;
+  background: linear-gradient(to bottom,#ec5242,#ec5242);
+  position: absolute;
+}
+
+.gr-text2 {
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.gr-text2 .p2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.gr-text2 .p1 {
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .partners1 {
@@ -376,6 +468,47 @@ img .white {
   color: #d3d3d3;
 }
 
+.partners1 h3 {
+  color: white;
+}
+
+.flex-cont {
+  display: flex;
+  width: 375px;
+  margin-top: -70px;
+  margin-bottom: 17px;
+}
+
+.ft {
+  width: 165px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  margin-left: 18px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.ft img {
+  width: 90px;
+}
+
+.ft span {
+  font-size: 11px;
+}
+
+.ft1 {
+  width: 118px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 8px;
+  font-family: 'Lato', sans-serif;
+  margin-right: -100px;
+  display: flex;
+  align-items: flex-end;
+}
+
 .mobile {
   display: block;
 }
@@ -408,7 +541,7 @@ img .white {
 
 @media (min-width: 768px) {
   .wrapper {
-    width: 100%;
+    width: 98%;
     height: 680px;
     background: url(./Image/desk-bg1.jpeg);
   }
@@ -590,52 +723,147 @@ img .white {
     margin: 0 auto;
     font-family: "Lato", sans-serif;
     font-size: 17px;
-    font-weight: 800;
+    font-weight: 500;
     display: flex;
     justify-content: center;
   }
 
   .grad {
+    width: 47%;
+    height: 200px;
     display: flex;
     flex-direction: row;
-    width: 53%;
-    height: 200px;
-    justify-content: space-between;
-    gap: 12px;
-    margin: 50px auto;
+    gap: 6px;
+    margin: 12px auto;
   }
 
-  .sponsors {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+  .ovl1 {
     display: flex;
-    flex-direction: column;
+    min-height: 200px;
+    background: #ec5242;
     align-items: center;
-    margin-top: 0;
+    justify-content: center;
   }
 
-  .sponsors h3 {
-    margin-bottom: 15px;
+  .gr-img1 {
+    background: url(./Image/graduation.jpg);
+    min-height: 200px;
+    width: 26%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
-  .partners1 {
-    width: 100%;
-    min-height: 240px;
-    padding-top: 35px;
-    background-color: #272a31;
-    color: #8f8f91;
-    margin-bottom: 0;
+  .overlay1 {
+    min-height: 200px;
+    opacity: 0.7;
+    width: 26%;
+    background: linear-gradient(to bottom,#ec5242,#ec5242);
+    position: absolute;
   }
 
-  .partners1 ul {
+  .gr-text1 {
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+
+  .gr-text1 .p2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .gr-text1 .p1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .ovl2 {
     display: flex;
-    list-style: none;
-    justify-content: space-between;
-    width: 70%;
-    min-height: 50px;
-    font-family: fantasy;
-    font-size: x-large;
+    min-height: 200px;
+    background: #ec5242;
+    align-items: center;
+    justify-content: center;
+    margin-left: -80px;
   }
+
+  .gr-img2 {
+    background: url(./Image/graduation.jpg);
+    min-height: 200px;
+    width: 26%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .overlay2 {
+    min-height: 200px;
+    opacity: 0.7;
+    width: 26%;
+    background: linear-gradient(to bottom,#ec5242,#ec5242);
+    position: absolute;
+  }
+
+  .gr-text2 {
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+
+  .gr-text2 .p2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  .gr-text2 .p1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .flex-f { 
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    min-height: 245px;
+   background-color: #2e2e2e;
+   padding-top: 18px;
+   margin-top: -140px;
+  }
+  
+  .ft img {
+    width: 100%;
+    color: #fff;
+  }
+
+  .flex-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 74px auto;
+    width: 70%;
+    height: 98px;
+    color: #fff;
+   
+  }
+
+  .ft1 {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    display: flex;
+    width: 70%;
+    height: 98px;
+  }
+
+  .ft span {
+    font-weight: 900;
+    font-size: 20px;
+    width: 50%;
+}
 }

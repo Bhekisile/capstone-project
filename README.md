@@ -19,6 +19,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -57,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/e3e80835d23b4b07a54f5cfa00e8c495)
+- [Live Demo Link](https://bhekisile.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +79,7 @@ npm
 
 Clone this repository to your desired folder:
 
--git clone https://github.com/Bhekisile/Bee_Portfolio.git
+-git clone https://github.com/Bhekisile/capstone-project/pull/3
 
 ### Install
 
@@ -141,6 +142,24 @@ If you like this project you hit like button or your comment is welcome.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Cindy Shin on Behance and Microverse and the team for this opportunity.
+
+[Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2] -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

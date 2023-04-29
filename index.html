@@ -13,7 +13,7 @@
             <div id="nav-menu">
                 <div id="btn-close">&times;</div>
                 <ul>
-                <li><a href="#about" class="nav-link" onclick="clickX()">About</a></li>
+                <li><a href="about.html" class="nav-link" onclick="clickX()">About</a></li>
                 <li><a href="#program" class="nav-link" onclick="clickX()">Program</a></li>
                 <li><a href="#join" class="nav-link" onclick="clickX()">Join</a></li>
                 <li><a href="#sponsor" class="nav-link" onclick="clickX()">Sponsor</a></li>
@@ -111,72 +111,23 @@
         <header class="lecturer" id="program">
             <h3 class="lect">Our Amazing Lecturers</h3>
             <img src="./Image/title-line.png" alt="">
-        </header>
-        
+        </header>   
         <article class="lecturers">
-            <div class="vanish">
+            <div class="vanish mobile">
                 <div class="row">
                     <div class="lects">
-                        <img src="./Image/exe-dean.jpg" alt="Executive Dean">
-                        <div class="flex-lects">
-                            <h4 class="name">Prof BB Mamba</h4>
-                            <p class="title">Executive Dean College of Science Engineering & Technology</p>
-                            <p class="descr">Specialising in Inorganic Chemistry, Nanostructured materials synthesis and water treatment</p>
-                        </div>
+                        <div class="img-cont"></div>
+                        <div class="flex-lects"></div>
                     </div>
-                    <div class="lects">
-                        <img src="./Image/Dr-Mark-Smith.jpg" alt="Dr Mark Smith">
-                        <div class="flex-lects">
-                            <h4 class="name">Dr Mark Smith</h4>
-                            <p class="title">Senior lecturer in the Department of Chemistry, CSET</p>
-                            <p class="descr">Specialising in Supramolecular Chemistry, Structural Chemistry and Pharmaceutical drug design</p>
-                        </div>
+                    <div class="lects"></div>
                     </div>
                 </div>
             </div>
-                <div id="showMore" class="mobile"></div>
+                <div id="showMore" class="desktop mobile"></div>
                 <button type="submit" class="btnLect mobile" onclick="toggleShow">
                     MORE <img src="./Image/arrow_down.png" alt="">
                 </button> 
-            
-            <div class="row desktop">
-                <div class="lects">
-                    <img src="./Image/MketoN.jpg" alt="Dr M Mketo">
-                    <div class="flex-lects">
-                        <h4 class="name">Dr M Mketo</h4>
-                        <p class="title">Department of Chemistry</p>
-                        <p class="descr">Specialising in inorganic (heavy metals, non-metals and metalloids) and organic pollutants are a threats to living organisms</p>
-                    </div>
-                </div>
-                <div class="lects">
-                    <img src="./Image/Prof-Mantile-Lekala.jpg" alt="Prof M Lekala">
-                    <div class="flex-lects">
-                        <h4 class="name">Prof M Lekala</h4>
-                        <p class="title">Department of Physics</p>
-                        <p class="descr">Specialising in Theoretical Nuclear, Atomic and Molecular Physics and Computational Physics</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row desktop">
-                <div class="lects">
-                    <img src="./Image/EevaRapoo.jpg" alt="Prof E Rapoo">
-                    <div class="flex-lects">
-                        <h4 class="name">Prof E Rapoo</h4>
-                        <p class="title">Chair of Statistics Department</p>
-                        <p class="descr">Specialising in Stochastics, Mathematics and Statistics Education and numerical analysis.</p>
-                    </div>
-                </div>
-                <div class="lects">
-                    <img src="./Image/Gaetan-Kabera.jpg" alt="Prof G Kabera">
-                    <div class="flex-lects">
-                        <h4 class="name">Prof G Kabera</h4>
-                        <p class="title">Statistics Lecturer</p>
-                        <p class="descr">Specialising in Optimal experimental Designs, Survival Analysis and Analytic Hierarchy Process.</p>
-                    </div>
-                </div>
-            </div>
         </article>
-            
         <article id="sponsor" class="partners1 desktop">
             <div class="sponsors desktop">
                 <h3>Partners</h3>
@@ -189,11 +140,15 @@
                 <li>NSFAS</li>
             </ul>
         </article>
-        <footer class="desktop">
-            <p>2015 Creative Commons South Africa. Some Rights Reserved.</p>
-            <div class="ft">
-                <img src="./Image/cck.png" alt="">
-                <span>SOUTH AFRICA</span>
+        <footer class="desktop flex-f">
+            <div class="flex-cont">
+                <div class="ft flex-item">
+                    <img src="./Image/cck.png" alt="">
+                    <span>SOUTH AFRICA</span>
+                </div>
+                <div class="flex-item">
+                <p>2015 Creative Commons South Africa. Some Rights Reserved.</p>
+                </div>
             </div>
         </footer>
         
