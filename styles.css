@@ -722,7 +722,6 @@ img .white {
   }
 
   #showMore {
-    
     width: 90%;
     min-height: 600px;
     margin: 30px auto;
@@ -733,7 +732,6 @@ img .white {
   .showMoreCont {
     background-color: #fff;
     display: flex;
-    /* margin: 24px 16px; */
     min-height: 150px;
     width: 90%;
   }
