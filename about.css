@@ -343,7 +343,6 @@ img .white {
   gap: 25px;
   margin-bottom: 48px;
   margin-left: 12px;
-  border: 1px solid red;
 }
 
 .ovl1 {
@@ -855,7 +854,6 @@ img .white {
     font-weight: 500;
     display: flex;
     align-items: center;
-    display: flex;
     width: 70%;
     height: 98px;
   }

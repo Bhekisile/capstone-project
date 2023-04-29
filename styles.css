@@ -13,7 +13,7 @@
 
 .wrapper {
   background-image: url(./Image/grey-bg.jpg);
-  width: 37;
+  width: 37px;
 }
 
 .nav-bar {
@@ -408,7 +408,7 @@ img .white {
   background-image: url(./Image/ch-img.png);
   background-size: 30px 30px;
   background-position: top left;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
 }
 
 .pop-img {
@@ -704,7 +704,7 @@ img .white {
     text-align: center;
     font-size: 14px;
     font-weight: 700;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   footer span {
@@ -731,7 +731,6 @@ img .white {
     margin: 24px 16px;
     min-height: 150px;
     width: 90%;
-    display: flex;
   }
 
   .flex-item p {

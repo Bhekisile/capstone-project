@@ -94,3 +94,4 @@ function toggleShow() {
     vanish.style.display = 'block';
   }
 }
+toggleShow();
