@@ -153,11 +153,11 @@ I would like to thank Cindy Shin on Behance and Microverse and the team for this
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[Which area of the website you would like to improve?]**
 
   - [Answer_1]
 
-- **[Question_2]**
+- **[What if there are some implementations that are not there, that I'd like to add, what can I do? ]**
 
   - [Answer_2] -->
 

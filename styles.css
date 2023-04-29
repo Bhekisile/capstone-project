@@ -403,11 +403,18 @@ img .white {
 .img1,
 .lects img {
   margin-right: 12px;
-  width: 120px;
-  height: 156px;
-  background-image: url(./Image/checkered-bg3.png);
-  background-size: 100px;
-  background-repeat: repeat;
+  width: 50px;
+  height: 50px;
+  background-image: url(./Image/ch-img.png);
+  background-size: 30px 30px;
+  background-position: top left;
+  background-repeat: no repeat;
+}
+
+.pop-img {
+  margin: 12px 0 0 12px;
+  width: 100px;
+  height: 120px;
 }
 
 .img1:nth-last-child(1) {
@@ -419,6 +426,8 @@ img .white {
   flex-direction: column;
   font-family: "Lato", sans-serif;
   font-weight: 500;
+  margin-left: 70px;
+  margin-top: 12px;
 }
 
 .dept,
@@ -658,6 +667,7 @@ img .white {
     background-color: #272a31;
     color: #8f8f91;
     margin-bottom: 100px;
+    margin-top: -450px;
   }
 
   .partners1 ul {

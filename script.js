@@ -70,6 +70,7 @@ dataCards.forEach((card) => {
   temp.innerHTML = `
   <div class='showMoreCont'>
   <div class='img1'><img class='pop-img' src=${card.image}></div>
+  <div class='che-img'></div>
   <div class='flex-txt'>
   <h4 class='dept'>${card.name}</h4>
   <p class='title'>${card.title}</p>
@@ -93,4 +94,3 @@ function toggleShow() {
     vanish.style.display = 'block';
   }
 }
-showBtn.addEventListener('click', toggleShow);

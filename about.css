@@ -352,7 +352,6 @@ img .white {
   align-items: center;
   justify-content: center;
   margin-left: 12px;
-  /* margin-right: -10px; */
 }
 
 .gr-img1 {
@@ -369,7 +368,7 @@ img .white {
   height: 200px;
   opacity: 0.7;
   width: 350px;
-  background: linear-gradient(to bottom,#ec5242,#ec5242);
+  background: linear-gradient(to bottom, #ec5242, #ec5242);
   position: absolute;
 }
 
@@ -414,7 +413,7 @@ img .white {
   height: 200px;
   opacity: 0.7;
   width: 350px;
-  background: linear-gradient(to bottom,#ec5242,#ec5242);
+  background: linear-gradient(to bottom, #ec5242, #ec5242);
   position: absolute;
 }
 
@@ -484,7 +483,7 @@ img .white {
   height: 30px;
   font-weight: 700;
   font-size: 12px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin-left: 18px;
   display: flex;
   align-items: flex-end;
@@ -503,7 +502,7 @@ img .white {
   height: 24px;
   font-weight: 700;
   font-size: 8px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin-right: -100px;
   display: flex;
   align-items: flex-end;
@@ -759,7 +758,7 @@ img .white {
     min-height: 200px;
     opacity: 0.7;
     width: 26%;
-    background: linear-gradient(to bottom,#ec5242,#ec5242);
+    background: linear-gradient(to bottom, #ec5242, #ec5242);
     position: absolute;
   }
 
@@ -804,7 +803,7 @@ img .white {
     min-height: 200px;
     opacity: 0.7;
     width: 26%;
-    background: linear-gradient(to bottom,#ec5242,#ec5242);
+    background: linear-gradient(to bottom, #ec5242, #ec5242);
     position: absolute;
   }
 
@@ -826,15 +825,15 @@ img .white {
     font-weight: 600;
   }
 
-  .flex-f { 
+  .flex-f {
     font-family: "Lato", sans-serif;
     width: 100%;
     min-height: 245px;
-   background-color: #2e2e2e;
-   padding-top: 18px;
-   margin-top: -140px;
+    background-color: #2e2e2e;
+    padding-top: 18px;
+    margin-top: -140px;
   }
-  
+
   .ft img {
     width: 100%;
     color: #fff;
@@ -848,7 +847,6 @@ img .white {
     width: 70%;
     height: 98px;
     color: #fff;
-   
   }
 
   .ft1 {
@@ -865,5 +863,5 @@ img .white {
     font-weight: 900;
     font-size: 20px;
     width: 50%;
-}
+  }
 }
