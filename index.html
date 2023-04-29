@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>College of Science</title>
+</head>
+<body>
+    <section class="wrapper">
+        <header>
+            <div id="nav-menu">
+                <div id="btn-close">&times;</div>
+                <ul>
+                <li><a href="about.html" class="nav-link" onclick="clickX()">About</a></li>
+                <li><a href="#program" class="nav-link" onclick="clickX()">Program</a></li>
+                <li><a href="#join" class="nav-link" onclick="clickX()">Join</a></li>
+                <li><a href="#sponsor" class="nav-link" onclick="clickX()">Sponsor</a></li>
+                <li><a href="#news" class="nav-link" onclick="clickX()">News</a></li>
+                </ul>
+            </div>
+            <nav class="nav-bar">
+                <img class="ham" src="./Image/hamburger.png">
+            </nav>
+            <div class="desk-nav">
+                <div class="black">
+                    <ul>
+                        <li><a href="#"><img src="./Image/facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="./Image/twitter.png" alt=""></a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">My Page</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+                <img class="logo-img" src="./Image/uni-logo1.png" alt="">
+                <div class="menu">
+                <ul>
+                    <li class=" nav-list red"><a class="red" href="about.html">About</a></li>
+                    <li class="nav-list"><a class="dark" href="#program">Program</a></li>
+                    <li class="nav-list"><a class="dark" href="#">Join</a></li>
+                    <li class="nav-list"><a class="dark" href="#sponsor">Sponsor</a></li>
+                    <li class="nav-list"><a class="dark" href="#">News</a></li>
+                    <li class="nav-list red"><a class="red" href="#">CC Campaign</a></li>
+                </ul>
+                </div>
+            </div>
+        </header>
+        <article>
+        <header class="sec1">
+            <h2>"Welcome! Define Tomorrow"</h2>
+            <h1>College of Science, Engineering and Technology 2023</h1>
+        </header>
+            <p class="text">
+                The vision of the College of Science, Engineering and Technology (CSET) 
+                is to “develop world class, futuristic, African science, engineering and 
+                technology leaders, who aspire to extend the frontiers of innovation”.
+            </p> 
+            <div class="place">
+                <h3 class="date">2023.04.17 (THU) ~ 5 (FRI)</h3>
+                <p class="venue">@ Sunnyside Building, Pretoria</p>
+            </div>
+        </article>
+    </section>
+    <section class="main-container">
+        <header class="sec2">
+            <h3>School Of Science</h3>
+            <img src="./Image/title-line.png" alt="">
+        </header>
+        <article class="main-course">
+            <div class="flex-wrapper">
+                <div class="b-grey">
+                    <img class="white" src="./Image/lecture1.png" alt="">
+                    <h4>Executive Dean</h4>
+                    <p class="text2">The College carries out front-end and cutting edge research in collaboration 
+                    with world-class universities and industry partners across the globe.</p>
+                </div>
+                <div class="b-grey">
+                    <img class="white" src="./Image/icon2.png" alt="">
+                    <h4>Department of chemistry</h4>
+                    <p class="text2">The undergraduate BSc degree includes studies of the four major disciplines 
+                    in chemistry; namely, Analytical, Inorganic, Organic and Physical Chemistry</p>
+                </div>
+                <div class="b-grey">
+                    <img class="white" src="./Image/icon3.png" alt="">
+                    <h4>Department of Mathematic Sciences</h4>
+                    <p class="text2">The department commits itself to the achievement of academic excellence 
+                    in the fields of Mathematics, Applied Mathematics and Astronomy</p>
+                </div>
+                <div class="b-grey">
+                    <img class="white" src="./Image/chemistry.png" alt="">
+                    <h4>Department of Physics</h4>
+                    <p class="text2">The Department seeks to address the need for people 
+                    skilled in science and technology in South Africa, 
+                    and to improve general scientific literacy in our communities.</p>
+                </div>
+                <div class="b-grey">
+                    <img class="white" src="./Image/icon5.png" alt="">
+                    <h4>Department of Statistics</h4>
+                    <p class="text2">Our programmes ensures a coherent degree structure which brings 
+                    statistical knowledge and technology skills to students from all walks of life.</p>
+                </div>
+            </div>
+                <div class="text3">
+                    <h5>Join our school of Science and Technology</h5>
+                </div>
+                <p class="textDesk desktop">SEE ALL OUR LECTURERS</p>
+        </article>     
+    </section>
+    <section>
+        <header class="lecturer" id="program">
+            <h3 class="lect">Our Amazing Lecturers</h3>
+            <img src="./Image/title-line.png" alt="">
+        </header>  
+        <div id="showMore" class="desktop mobile"></div>
+                <button type="submit" class="btnLect mobile" onclick="toggleShow">
+                    MORE <img src="./Image/arrow_down.png" alt="">
+                </button>  
+        <article class="lecturers">
+            <div class="vanish mobile">
+                <div class="row">
+                    <div class="lects">
+                        <div class="img-cont"></div>
+                        <div class="flex-lects"></div>
+                    </div>
+                    <div class="lects"></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="sponsor" class="partners1 desktop">
+            <div class="sponsors desktop">
+                <h3>Partners</h3>
+                <img src="./Image/title-line.png" alt="">
+            </div>   
+            <ul class="desktop">
+                <li>ALUMNI</li>
+                <li>Funza Lushaka</li>
+                <li>Department of Arts and Culture</li>
+                <li>NSFAS</li>
+            </ul>
+        </article>
+        <footer class="desktop flex-f">
+            <div class="flex-cont">
+                <div class="ft flex-item">
+                    <img src="./Image/cck.png" alt="">
+                    <span>S.AFRICA</span>
+                </div>
+                <div class="flex-item">
+                <p>2023 Creative Commons South Africa. Some Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
