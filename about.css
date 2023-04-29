@@ -335,7 +335,7 @@ img .white {
 }
 
 .grad {
-  width: 340px;
+  width: 90%;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -343,6 +343,7 @@ img .white {
   gap: 25px;
   margin-bottom: 48px;
   margin-left: 12px;
+  border: 1px solid red;
 }
 
 .ovl1 {
@@ -352,6 +353,7 @@ img .white {
   align-items: center;
   justify-content: center;
   margin-left: 12px;
+  
   /* margin-right: -10px; */
 }
 
