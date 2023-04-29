@@ -172,6 +172,10 @@ h1 {
   padding: 0;
 }
 
+.b-grey:hover {
+  border: 1px solid white;
+}
+
 img .white {
   width: 30px;
   height: 30px;
@@ -384,9 +388,9 @@ img .white {
   display: block;
 }
 
-#showMore {
+/* #showMore {
   display: block;
-}
+} */
 
 .vanish {
   display: block;
@@ -718,17 +722,18 @@ img .white {
   }
 
   #showMore {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
     width: 90%;
     min-height: 600px;
     margin: 30px auto;
+    display: grid;
+    grid-template-columns: auto auto;
   }
 
   .showMoreCont {
     background-color: #fff;
     display: flex;
-    margin: 24px 16px;
+    /* margin: 24px 16px; */
     min-height: 150px;
     width: 90%;
   }
